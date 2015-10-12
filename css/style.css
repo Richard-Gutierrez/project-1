@@ -1,0 +1,42 @@
+header {
+	
+	background: black;
+	height: 150px;
+}
+
+h1 {
+	color: orange;
+	padding: 50px 0px 40px 50px;
+	
+}
+
+h2 {
+	float: right;
+	color: orange;
+	padding: 50px 50px 40px 0px;
+	
+
+}
+
+body {
+	background: url("http://www.publicdomainpictures.net/pictures/40000/nahled/honeycomb-pattern-background.jpg");
+	
+
+
+
+}
+
+img {
+	
+	margin-left: 40px;
+	max-width: 400px;
+	max-height: 400px
+
+}
+
+footer {
+	background: black;
+	height: 150px;
+	
+
+}
