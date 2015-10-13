@@ -3,7 +3,17 @@
 
 $('.start-button').click(function(){
 	$('.cat').css('visibility','visible')
+	var numLetters = words [0].length;
+
+	$('.underscore1, .underscore2, .underscore3').css('visibility','visible');
+
+
+
 });
+  
+var words =['cat','dog']
+
+
 
 
 

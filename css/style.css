@@ -109,6 +109,28 @@ img {
 	margin-right: 500px;
 	visibility: hidden;
 }
+
+.underscore1,
+.underscore2,
+.underscore3 {
+	display: inline-block;
+	color: solid black;
+	position: absolute;
+	bottom: 0;
+	font-size: 24px;
+	visibility: hidden;
+}
+
+.underscore1 {
+	left: 400px;
+}
+.underscore2 {
+	left: 500px;
+}
+.underscore3 {
+	left: 600px;
+}
+
 /*
 div {
 

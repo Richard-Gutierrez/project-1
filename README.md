@@ -25,7 +25,7 @@ The main reason why kids need this game is because it is a subtle tool, to learn
 - [x] As a kid, when I visit the site, I see the name "Honey Bee Spelling", the buttons "Start Here" and "Next",
       and a list of letters.
 - [x] As a kid, when I click "Start Here" I see a new image of something to spell.
-- [ ] As a kid, when I click "Start Here" I see blank spaces for letters in the thing I want to spell.
+- [x] As a kid, when I click "Start Here" I see blank spaces for letters in the thing I want to spell.
 - [ ] As a kid, when I click a letter, and the letter is in the word, it will show up in the correct blank space.
 - [ ] As a kid, when I spell the word, I will be congratulated by the game.
 - [ ] As a kid, when I spell a word right, I can click "Next" to load a new image and word.
