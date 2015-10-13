@@ -11,7 +11,8 @@ $('.start-button').click(function(){
 
 });
   
-var words =['cat','dog']
+var words = ['CAT', 'DOG'];
+
 
 
 
@@ -44,9 +45,26 @@ console.log(charArray);
 
 
 $('.letter').click(function(){
-	console.log('clicked');
-});
+	var letter = this.innerHTML;
 
+	// where it is in the word
+	var indexInWord = words[0].indexOf(letter);
+
+	// If it is in the word
+	if (indexInWord !== -1){
+		// Put it in the right div corresponding to the word
+		var wordNumber = indexInWord + 1;
+
+		// we are concatenating the string .underscore and 1 (or 2/3)
+		// to get the class name of the elements with underscores on
+		// the dom
+		var className  = '.underscore' + wordNumber;
+
+		console.log("letter: ", letter, "index: ", indexInWord, "number: ", wordNumber, "class name: ", className);
+		
+		$(className).text(letter);
+	}
+});
 
 
 
@@ -66,7 +84,7 @@ $(".color").click(function() {
     $("body").css("background", randomRGBA);
     //Display the RGBA value in an alert window
     alert(randomRGBA);
-    });
+});
     
 
  
