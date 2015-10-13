@@ -1,7 +1,10 @@
+
 header {
-	
+	margin-left: -10px;
+	margin-top: -23px;
 	background: black;
 	height: 150px;
+	width: 1400px;
 }
 
 h1 {
@@ -11,32 +14,122 @@ h1 {
 }
 
 h2 {
-	float: right;
-	color: orange;
-	padding: 50px 50px 40px 0px;
 	
-
+	color: orange;
+	margin-top: 50px;
+	margin-left: 40px;
+	float: left;
 }
 
-body {
-	background: url("http://www.publicdomainpictures.net/pictures/40000/nahled/honeycomb-pattern-background.jpg");
-	
+.comb0 {
 
+	margin-left: -10px;
+	margin-top: 0px;
+ 	
+}
+.comb1 {
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb2 {
 
+	margin-left: -3.6px;
+	margin-top: 0px;s
+}
+.comb3 {
 
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb4 {
+
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb5 {
+
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb6 {
+
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb7 {
+
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb8 {
+
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb9 {
+
+	margin-left: -3.6px;
+	margin-top: 0px;
+}
+.comb10 {
+
+	margin-left: -3.6px;
+	margin-top: 0px;
+	clear: inherit;
+}
+
+.letter  {
+ 	
+ 	display: inline;
+ 	font-size: 1.5em;
+ 	padding: 5px;
+ 	
+
+ 	
+ 	
+ 	
 }
 
 img {
-	
-	margin-left: 40px;
-	max-width: 400px;
-	max-height: 400px
 
+	margin-left: 30px;
+	margin-top: 200px;
+	
+	margin-bottom: 5px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+
+.cat {
+
+	margin-left: 200px;
+	margin-bottom: 50px;
+	float: right;
+	margin-right: 500px;
+	visibility: hidden;
+}
+/*
+div {
+
+	background: orange;
+	margin-left: -10px;
+	height: 20px;
+	width: 1400px;
+}
+*/
+h3 {
+	color: orange;
+	float: right;
+	margin-right: 60px;
+	margin-top: 60px;
 }
 
 footer {
+    margin-left: -10px;
+	margin-top: 400px;
 	background: black;
 	height: 150px;
+	width: 1400px;
 	
-
 }
