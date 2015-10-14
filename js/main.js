@@ -28,10 +28,6 @@ var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 
 
 
-var a = 97;
-var charArray = {};
-
-console.log(charArray);
 
 
 
@@ -71,7 +67,7 @@ $('.letter').click(function(){
 
 
 // When color button is clicked, generate on RGBA value
-$(".color").click(function() {
+$(".color").click(function(){
     // Assign each color a random number 0-255
     var red = Math.background(Math.random() * 255);
     var green = Math.background(Math.random() * 255);

@@ -28,57 +28,107 @@ h2 {
  	
 }
 .comb1 {
-	margin-left: -3.6px;
+	margin-left: -12.6px;
 	margin-top: 0px;
 }
 .comb2 {
 
-	margin-left: -3.6px;
+	margin-left: -13.6px;
 	margin-top: 0px;s
 }
 .comb3 {
 
-	margin-left: -3.6px;
+	margin-left: -12.6px;
 	margin-top: 0px;
 }
 .comb4 {
 
-	margin-left: -3.6px;
+	margin-left: -13.6px;
 	margin-top: 0px;
 }
 .comb5 {
 
-	margin-left: -3.6px;
+	margin-left: -12.6px;
 	margin-top: 0px;
 }
 .comb6 {
 
-	margin-left: -3.6px;
+	margin-left: -12.6px;
 	margin-top: 0px;
 }
 .comb7 {
 
-	margin-left: -3.6px;
+	margin-left: -13.6px;
 	margin-top: 0px;
 }
 .comb8 {
 
-	margin-left: -3.6px;
+	margin-left: -13.6px;
 	margin-top: 0px;
 }
 .comb9 {
 
-	margin-left: -3.6px;
+	margin-left: -13.6px;
 	margin-top: 0px;
 }
 .comb10 {
 
-	margin-left: -3.6px;
+	margin-left: -12.6px;
 	margin-top: 0px;
-	clear: inherit;
+	
+}
+.comb11 {
+
+	margin-left: -12.6px;
+	margin-top: 0px;
+
+}
+.comb12 {
+
+	margin-left: -12.6px;
+	margin-top: 0px;
+	
+}
+.comb13 {
+
+	margin-left: -12.6px;
+	margin-top: 0px;
+	
+}
+.comb14 {
+
+	margin-left: -12.6px;
+	margin-top: 0px;
+
+}
+.comb15 {
+
+	margin-left: -12.6px;
+	margin-top: 0px;
+
+}
+.comb16 {
+
+	margin-left: -12.6px;
+	margin-top: 0px;
+
+}
+.comb17 {
+
+	margin-left: -12.6px;
+	margin-top: 0px;
+	
+}
+.comb18 {
+
+	margin-left: -82px;
+	margin-top: 0px;
+	
 }
 
 .letter {
+
+	margin: 0 auto;
  	display: inline;
  	font-size: 1.5em;
  	padding: 5px;
@@ -88,12 +138,10 @@ h2 {
 
 img {
 
-	margin-left: 30px;
-	margin-top: 200px;
-	
-	margin-bottom: 5px;
-	max-width: 150px;
-	max-height: 150px;
+	margin-left: 0px;
+	margin-top: 90px;
+	max-width: 250px;
+	max-height: 250px;
 }
 
 
@@ -109,6 +157,7 @@ img {
 .underscore1,
 .underscore2,
 .underscore3 {
+
 	display: inline-block;
 	color: solid black;
 	position: absolute;
@@ -118,13 +167,13 @@ img {
 }
 
 .underscore1 {
-	left: 400px;
+	left: 640px;
 }
 .underscore2 {
-	left: 500px;
+	left: 740px;
 }
 .underscore3 {
-	left: 600px;
+	left: 840px;
 }
 
 /*
@@ -132,6 +181,7 @@ div {
 
 	background: orange;
 	margin-left: -10px;
+	margin-top: 200px;
 	height: 20px;
 	width: 1400px;
 }
@@ -142,7 +192,23 @@ h3 {
 	margin-right: 60px;
 	margin-top: 60px;
 }
+.start-button {
 
+	position: absolute;
+	bottom: 0;
+	font-size: 200px;
+	left: 300px;
+
+}
+
+.next-button {
+
+	position: absolute;
+	bottom: 0;
+	font-size: 200px;
+	right: 300px;
+
+}
 footer {
     margin-left: -10px;
 	margin-top: 400px;
