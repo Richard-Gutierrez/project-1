@@ -154,6 +154,15 @@ img {
 	visibility: hidden;
 }
 
+.dog {
+	margin-left: 200px;
+	margin-bottom: 50px;
+	float: right;
+	margin-right: 500px;
+	visibility: hidden;
+
+}
+
 .underscore1,
 .underscore2,
 .underscore3 {
