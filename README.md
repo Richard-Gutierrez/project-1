@@ -1,4 +1,4 @@
-#Bee Spelling
+#Spelling Bee
 
 ## User Profiles
 
@@ -28,4 +28,16 @@ The main reason why kids need this game is because it is a subtle tool, to learn
 - [x] As a kid, when I click "Start Here" I see blank spaces for letters in the thing I want to spell.
 - [x] As a kid, when I click a letter, and the letter is in the word, it will show up in the correct blank space.
 - [ ] As a kid, when I spell the word, I will be congratulated by the game.
-- [ ] As a kid, when I spell a word right, I can click "Next" to load a new image and word.
+- [x] As a kid, when I spell a word right, I can click "Next" to load a new image and word.
+- 
+
+
+i. Parents are buying Spelling Bee for their young kids. The game is going to be designed and designated for 2 months and up ha. Kids are going to be working with or against someone either. Online or with a competitor.
+
+ii. Technologies used were; HTML, CSS and JavaScript
+
+iii. Wireframes and stenciled boxes
+
+iv.I started with practical idea and evoloved to a very subtle web page.
+
+v. When done with the correct word; I will be congratulated by the game with stars fireworks ballons.
