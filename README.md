@@ -1,4 +1,4 @@
-# Honey Bee Spelling
+#Bee Spelling
 
 ## User Profiles
 

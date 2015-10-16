@@ -1,50 +1,75 @@
 
 // Start button
 
-$('.start-button').click(function(){
-	$('.cat').css('visibility','visible')
-	var numLetters = words [0].length;
+var countTurn = 0;
+var numLetters;
+var words = ['CAT','DOG','DUCK','BEAR','PIG'];
 
+$('.start-button').click(function(){
+	$('.cat').css('display','block')
+	
+	numLetters = words [0].length;
+		
 	$('.underscore1, .underscore2, .underscore3').css('visibility','visible');
 
 
-
 });
-  
-var words = ['CAT', 'DOG'];
+
+//new images come out when the words are spelled correctly
+
+$('.next-button').click(function(){
+	countTurn = countTurn + 1;
+	numLetters = words[countTurn].length;
+
+	 switch (countTurn){
+
+	 	case 1:
+	 		$('.cat').css('display','none');
+	 		victory();
+	 		$('.dog').css('display','block');
+			$('.underscore1, .underscore2, .underscore3').text("_");
+			//$('.underscore1, .underscore2, .underscore3').css('visibility','visible');
+	 	break;
 
 
+	 	case 2:
+	 		$('.dog').css('display','none')
+	 		$('.duck').css('display','block');
+	 		$('.underscore1, .underscore2, .underscore3, .underscore4').text("_");
+			$('.underscore1, .underscore2, .underscore3, .underscore4').css('visibility','visible');
+		break;
 
+	 	case 3:
+	 		$('.duck').css('display','none')
+	 		$('.bear').css('display','block');
+	 		$('.underscore1, .underscore2, .underscore3, .underscore4').text("_");
+			$('.underscore1, .underscore2, .underscore3, .underscore4').css('visibility','visible');
+	 	break;
 
+	 	case 4:
+	 		$('.bear').css('display','none')
+	 		$('.pig').css('display','block');
+	 		$('.underscore1, .underscore2, .underscore3').text("_");
+			$('.underscore4').css('visibility','hidden');
 
+	 	break;
+}
 
-
-// click any of the letters to choose the correct letter for the pic.
+	});
+  // click any of the letters to choose the correct letter for the pic.
 
 
 var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
 				"P","Q","R","S","T","U","V","W","X","Y","Z"];
 
-
-
-
-
-
-
-
 //to make an congradulatory screen with falling "bee" "ballons" "random"
-
-//new images come out when the words are spelled correctly
-
-
-// $.Letter.click...+ jquery
 
 
 $('.letter').click(function(){
 	var letter = this.innerHTML;
 
 	// where it is in the word
-	var indexInWord = words[0].indexOf(letter);
+	var indexInWord = words[countTurn].indexOf(letter);
 
 	// If it is in the word
 	if (indexInWord !== -1){
@@ -62,7 +87,9 @@ $('.letter').click(function(){
 	}
 });
 
-
+function victory(){
+//picture functionality
+}
 
 
 
@@ -81,6 +108,15 @@ $(".color").click(function(){
     //Display the RGBA value in an alert window
     alert(randomRGBA);
 });
+
+
+// click any of the letters to choose the correct letter for the pic.
+
+
+var alpha = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O",
+				"P","Q","R","S","T","U","V","W","X","Y","Z"];
+
+
     
 
  

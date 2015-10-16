@@ -1,139 +1,37 @@
 
 header {
+
+	
 	margin-left: -10px;
 	margin-top: -23px;
 	background: black;
-	height: 150px;
-	width: 1400px;
+	height: 120px;
+	width: 1600px;
 }
 
 h1 {
 	color: orange;
-	padding: 50px 0px 40px 50px;
-	
+	padding: 40px 0px 40px 50px;
 }
 
-h2 {
-	
-	color: orange;
-	margin-top: 50px;
-	margin-left: 40px;
-	float: left;
-}
+ul {
 
-.comb0 {
-
+	font-family: 'Passion One', cursive;
+	background: orange;
+	margin-top: 0px;
 	margin-left: -10px;
-	margin-top: 0px;
- 	
-}
-.comb1 {
-	margin-left: -12.6px;
-	margin-top: 0px;
-}
-.comb2 {
-
-	margin-left: -13.6px;
-	margin-top: 0px;s
-}
-.comb3 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-}
-.comb4 {
-
-	margin-left: -13.6px;
-	margin-top: 0px;
-}
-.comb5 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-}
-.comb6 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-}
-.comb7 {
-
-	margin-left: -13.6px;
-	margin-top: 0px;
-}
-.comb8 {
-
-	margin-left: -13.6px;
-	margin-top: 0px;
-}
-.comb9 {
-
-	margin-left: -13.6px;
-	margin-top: 0px;
-}
-.comb10 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-	
-}
-.comb11 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-
-}
-.comb12 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-	
-}
-.comb13 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-	
-}
-.comb14 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-
-}
-.comb15 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-
-}
-.comb16 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-
-}
-.comb17 {
-
-	margin-left: -12.6px;
-	margin-top: 0px;
-	
-}
-.comb18 {
-
-	margin-left: -82px;
-	margin-top: 0px;
+	height: 50px;
+	width: 1400px;
+	padding: 30px 5px 5px 40px;
+	font-size: 30px;
 	
 }
 
-.letter {
+li, .letter {
 
-	margin: 0 auto;
- 	display: inline;
- 	font-size: 1.5em;
- 	padding: 5px;
- 	
 	cursor: pointer;	
+	margin-left: 30px;
+	display: inline;
 }
 
 img {
@@ -146,65 +44,80 @@ img {
 
 
 .cat {
-
+	
 	margin-left: 200px;
-	margin-bottom: 50px;
+	margin-bottom: -0px;
 	float: right;
-	margin-right: 500px;
-	visibility: hidden;
+	margin-right: 530px;
+    display: none;
 }
 
 .dog {
+
 	margin-left: 200px;
-	margin-bottom: 50px;
+	margin-bottom: -0px;
 	float: right;
-	margin-right: 500px;
-	visibility: hidden;
+	margin-right: 530px;
+    display: none;
+	
+}
+
+.duck {
+	margin-left: 200px;
+	margin-bottom: -0px;
+	float: right;
+	margin-right: 530px;
+	display: none;
+
+}
+.bear {
+	margin-left: 200px;
+	margin-bottom: -0px;
+	float: right;
+	margin-right: 530px;
+	display: none;
+
+}
+.pig {
+	margin-left: 200px;
+	margin-bottom: -0px;
+	float: right;
+	margin-right: 530px;
+	display: none;
 
 }
 
 .underscore1,
 .underscore2,
-.underscore3 {
+.underscore3,
+.underscore4 {
 
 	display: inline-block;
 	color: solid black;
 	position: absolute;
-	bottom: 0;
+	margin-top: 360px;
 	font-size: 24px;
 	visibility: hidden;
 }
 
 .underscore1 {
-	left: 640px;
+	left: 610px;
 }
 .underscore2 {
-	left: 740px;
+	left: 710px;
 }
 .underscore3 {
-	left: 840px;
+	left: 810px;
+}
+.underscore4 {
+	left: 910px;
 }
 
-/*
-div {
 
-	background: orange;
-	margin-left: -10px;
-	margin-top: 200px;
-	height: 20px;
-	width: 1400px;
-}
-*/
-h3 {
-	color: orange;
-	float: right;
-	margin-right: 60px;
-	margin-top: 60px;
-}
 .start-button {
 
 	position: absolute;
-	bottom: 0;
+	margin-top: 375px;
 	font-size: 200px;
 	left: 300px;
 
@@ -213,16 +126,233 @@ h3 {
 .next-button {
 
 	position: absolute;
-	bottom: 0;
+	margin-top: 375px;
 	font-size: 200px;
 	right: 300px;
-
 }
+
+h2 {
+	
+	color: orange;
+	margin-top: 50px;
+	margin-left: 50px;
+	float: left;
+}
+
+
+h3 {
+
+	color: orange;
+	float: right;
+	margin-right: 300px;
+	margin-top: 58px;
+}
+
 footer {
     margin-left: -10px;
-	margin-top: 400px;
+	margin-top: 480px;
 	background: black;
-	height: 150px;
-	width: 1400px;
+	height: 120px;
+	width: 1600px;
 	
 }
+
+
+
+@media only screen and (max-width: 400px) {
+
+header {
+
+	margin-left: -10px;
+	margin-top: -23px;
+	background: black;
+	height: 50px;
+	width: 400px;
+}
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+h1 {
+	font-size: 25px;
+	color: orange;
+	padding: 40px 0px 0px 120px;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+
+ ul {
+
+  	font-family: 'Passion One', serif;
+	background: orange;
+	margin-top: 0px;
+	margin-left: -10px;
+	height: 80px;
+	width: 405px;
+	padding: 15px 0px 0px 2px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+li, .letter {
+
+	cursor: pointer;
+	display: inline;
+	margin-left: 9.4px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+img {
+
+	margin-right: 4000px;
+	margin-top: 90px;
+	max-width: 250px;
+	max-height: 250px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+.cat {
+	
+	margin-right: 200px;
+	margin-bottom: -0px;
+	margin-right: 530px;
+	float: right;
+	display: none;
+}
+
+@media only screen and (max-width: 400px) {
+
+.dog {
+	margin-left: 200px;
+	margin-bottom: -0px;
+	float: right;
+	margin-right: 530px;
+	display: none;
+
+}
+
+@media only screen and (max-width: 400px) {
+
+.duck {
+	margin-left: 200px;
+	margin-bottom: -0px;
+	float: right;
+	margin-right: 530px;
+	display: none;
+
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+.bear {
+	margin-left: 200px;
+	margin-bottom: -0px;
+	float: right;
+	margin-right: 530px;
+	display: none;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+.pig {
+	margin-left: 200px;
+	margin-bottom: -0px;
+	float: right;
+	margin-right: 530px;
+	display: none;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+.underscore1,
+.underscore2,
+.underscore3,
+.underscore4 {
+
+	display: inline-block;
+	color: solid black;
+	
+	margin-bottom: 50px;
+	font-size: 24px;
+	visibility: hidden;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+
+.underscore1 {
+	left: 200px;
+}
+}
+@media only screen and (max-width: 400px) {
+.underscore2 {
+	left: 250px;
+}
+}
+@media only screen and (max-width: 400px) {
+.underscore3 {
+	left: 300px;
+}
+}
+@media only screen and (max-width: 400px) {
+.underscore4 {
+	left: 350px;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+
+.start-button {
+
+	 margin-top: 375px;
+	 left: 60px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+
+.next-button {
+
+	margin-top: 375px;
+	right: 60px;
+}
+}
+
+
+@media only screen and (max-width: 400px) {
+
+h3 {
+	
+	
+	color: orange;
+	margin-left: -75%;
+	margin-top: 57px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
